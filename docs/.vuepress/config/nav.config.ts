@@ -3,41 +3,10 @@
  ******************************************************************************************/
 
 export default [
-  // ========== 基础 ========== //
+  // ========== 示例 ========== //
   {
-    text: "基础",
-    link: "/basic/",
-    items: [
-      {
-        text: "RoadMap",
-        link: "/basic/roadmap/",
-      },
-      {
-        text: "数理基础",
-        items: [{ text: "开始上手", link: "/basic/math/index/" }],
-      },
-      {
-        text: "Python",
-        items: [{ text: "开始上手", link: "/basic/python/index/" }],
-      },
-    ],
-  },
-  // ========== 机器学习 ========== //
-  {
-    text: "机器学习",
-    link: "/machine-learnning/",
-    items: [],
-  },
-  // ========== 深度学习 ========== //
-  {
-    text: "深度学习",
-    link: "/deep-learnning/",
-    items: [],
-  },
-  {
-    text: "更多",
-    link: "/more/",
-    items: [],
+    text: "示例",
+    link: "/example/",
   },
   { text: "关于", link: "/about/" },
   {

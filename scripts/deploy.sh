@@ -17,10 +17,10 @@ git config --global user.email "wuqingshan@xylink.com"
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy: deploy to pages'
-  githubUrl=git@github.com:jonsam-ng/fancy-machine-learnning.git
+  githubUrl=git@github.com:jonsam-ng/fancy-note-starter.git
 else
   msg='deploy: auto deploy by github actions'
-  githubUrl=https://jonsam-ng:${GITHUB_TOKEN}@github.com/jonsam-ng/fancy-machine-learnning.git
+  githubUrl=https://jonsam-ng:${GITHUB_TOKEN}@github.com/jonsam-ng/fancy-note-starter.git
 fi
 git init
 git add -A
