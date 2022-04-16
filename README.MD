@@ -30,7 +30,7 @@ yarn dev
 
 6. 在 `.github/workflows/ci.yml` 中修改 GITHUB_TOKEN、CODING_TOKEN 为你的 GITHUB_TOKEN、CODING_TOKEN 变量名称。
 
-7. 修改 `scripts/deploy.sh` 文件中 `user.name`、`user.email`、githubUrl 配置。
+7. 修改 `scripts/deploy.sh` 文件中 `user.name`、`user.email`、githubUrl 配置(如果需要自定义域名需要修改 `CNAME` 为您的域名)。
 
 8. 创建 github 仓库。初始化 git 并推送至 master 分支。
 
