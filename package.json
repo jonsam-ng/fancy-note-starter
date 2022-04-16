@@ -11,6 +11,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@renovamen/vuepress-plugin-katex": "^0.2.0",
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
@@ -23,8 +24,7 @@
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.10.3",
-    "@renovamen/vuepress-plugin-katex": "^0.2.0",
+    "vuepress-theme-vdoing": "^1.11.1",
     "yamljs": "^0.3.0"
   }
 }

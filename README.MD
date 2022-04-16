@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.jonsam.site/" target="_blank" rel="noopener noreferrer"><img width="180" src="/docs/.vuepress/public/img/logo.png" alt="logo"></a></p>
+<p align="center"><a href="https://jonsam-ng.github.io/fancy-note-starter/" target="_blank" rel="noopener noreferrer"><img width="180" src="/docs/.vuepress/public/img/logo.png" alt="logo"></a></p>
 
 <h2 align="center">Fancy Note Starter</h2>
 
@@ -7,6 +7,14 @@
 A simple starter to create note site using vuepress and github pages.
 
 使用 vuepress 和 github pages 快速建立笔记静态站点的模板。
+
+## 使用模板
+
+```bash
+mkdir my-note
+cd my-note
+degit jonsam-ng/fancy-note-starter
+```
 
 ## 快速上手
 
