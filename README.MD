@@ -36,15 +36,17 @@ yarn dev
 
 9. 等待 github actions 完成后，在 `Setting` → `Pages` -> `Source` 中将分支改为 `gh-pages`。如果没有此分支，请检查上一步 git action 是否完成或者是否报错。
 
-10. [可选]如果需要自定义域名，在 `Setting` → `Pages` -> `Custom domain` 修改为自已的自定义域名，前提是您已经在域名解析服务商那里将域名解析到 `{{github_name}}.github.io`（配置 NS 记录）。建议勾选 `Enforce HTTPS`。
+10. [可选]如果需要自定义域名，修改 `docs/.vuepress/config/site.config.ts` 中设置 `useCustomDomainName` 为 true，在 `Setting` → `Pages` -> `Custom domain` 修改为自已的自定义域名，前提是您已经在域名解析服务商那里将域名解析到 `{{github_name}}.github.io`（配置 NS 记录）。建议勾选 `Enforce HTTPS`。
 
-11. [可选]在 `scripts/baiduPush.sh` 配置百度推送。
+11. [可选]在 `scripts/baiduPush.sh` 配置百度推送。在 `package.json` 修改 scripts 里 `baiduPush` 脚本中域名为您的域名。
 
 12. [可选]在 `docs/.vuepress/config/baiduCode.ts` 配置百度统计。
 
 13. 在 `package.json` 中修改 `name` 等配置。
 
 14. 在 `docs/.vuepress/config/plugin.config.ts` 中修改 `vuepress-plugin-comment` 评论插件的配置。
+
+15. 修改 `README.MD` 文件。
 
 ## 其余配置
 
