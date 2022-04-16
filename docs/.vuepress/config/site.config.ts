@@ -38,4 +38,4 @@ export const siteFooter = {
   copyrightInfo: `${siteName} | Made by <a href=${personalLink} target="_blank">${siteAuthor.name}</a> by ❤`,
 };
 
-export const siteBase = useCustomDomainName ? "" : `/${siteRepo}`;
+export const siteBase = useCustomDomainName ? "" : `/${siteRepo}/`;

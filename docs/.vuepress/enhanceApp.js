@@ -1,10 +1,3 @@
-import {
-  removeElement,
-  addPageWordsCount,
-  addReadTimeCount,
-  addPageView,
-  getPageViewCouter,
-} from "./plugins/siteInfo";
 import LastReadingPopup from "./components/LastReadingPopup.vue";
 
 export default ({

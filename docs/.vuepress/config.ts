@@ -34,7 +34,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   themeConfig: {
     nav,
     sidebarDepth: 1,
-    logo: `${siteBase}/img/logo.png`,
+    logo: `/img/logo.png`,
     repo: siteRepo,
     searchMaxSuggestions: 10,
     lastUpdated: "上次更新",
@@ -84,5 +84,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     extractHeaders: ["h2", "h3", "h4", "h5", "h6"], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
   // 监听文件变化并重新构建
-  extraWatchFiles: [".vuepress/config.ts", ".vuepress/config/htmlModules.ts"],
+  extraWatchFiles: [
+    ".vuepress/config.ts",
+    ".vuepress/config/htmlModules.ts",
+    ".vuepress/config/site.config.ts",
+    ".vuepress/config/head.config.ts",
+    ".vuepress/config/nav.config.ts",
+    ".vuepress/config/plugin.config.ts",
+    ".vuepress/config/social.config.ts",
+  ],
 });

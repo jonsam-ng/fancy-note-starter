@@ -10,7 +10,7 @@ import {
 } from "./site.config";
 
 export default [
-  ["link", { rel: "icon", href: `${siteBase}/img/favicon.ico` }],
+  ["link", { rel: "icon", href: `/img/favicon.ico` }],
   ["meta", { name: "referrer", content: "no-referrer-when-downgrade" }],
   ["meta", { name: "keywords", content: siteKeywords }],
   // ["meta", { name: "baidu-site-verification", content: "7F55weZDDc" }], // 百度统计的站长验证（你可以去掉）
