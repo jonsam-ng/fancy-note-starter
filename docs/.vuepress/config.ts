@@ -93,4 +93,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ".vuepress/config/plugin.config.ts",
     ".vuepress/config/social.config.ts",
   ],
+  configureWebpack: {
+    node: {
+      global: true,
+      process: true,
+    },
+  },
 });
