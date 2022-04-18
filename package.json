@@ -12,7 +12,9 @@
   "license": "MIT",
   "devDependencies": {
     "@renovamen/vuepress-plugin-katex": "^0.2.0",
+    "chalk": "^5.0.1",
     "dayjs": "^1.9.7",
+    "gray-matter": "^4.0.3",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
     "vuepress": "1.9.5",
