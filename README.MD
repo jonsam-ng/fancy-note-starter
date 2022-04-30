@@ -10,6 +10,8 @@ A simple starter to create note site using vuepress and github pages.
 
 ## 使用模板
 
+点击 `Use this template` 创建您的仓库。或者您也可以先拉取代码：
+
 ```bash
 mkdir my-note
 cd my-note

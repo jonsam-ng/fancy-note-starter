@@ -8,7 +8,7 @@ export const siteDesc =
 	"A simple starter to create note site using vuepress and github pages.";
 
 // 是否使用 github pages 的自定义域名
-export const useCustomDomainName = true;
+export const useCustomDomainName = false;
 
 export const siteKeywords = "笔记模板,静态站点";
 
