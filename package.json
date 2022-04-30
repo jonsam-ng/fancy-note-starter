@@ -8,7 +8,7 @@
 		"editFm": "node utils/editFrontmatter.js",
 		"baiduPush": "node utils/baiduPush.js https://www.jonsam.site && bash scripts/baiduPush.sh",
 		"updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
-		"buildSli": "cd slides && npx slidev build --base slides",
+		"buildSli": "cd slides && npm install && npx slidev build --base slides",
 		"devSli": "cd slides && npx slidev --open",
 		"exportSli": "cd slides && yarn add playwright-chromium -D && npx slidev export"
 	},
