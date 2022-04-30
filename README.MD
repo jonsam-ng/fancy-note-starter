@@ -20,7 +20,7 @@ degit jonsam-ng/fancy-note-starter
 
 ## 特性
 
-- 支持 slidev 幻灯片
+- 支持 slidev 幻灯片，链接 `/slides`。
 
 ## 快速上手
 
@@ -87,6 +87,10 @@ yarn dev
 
 - [Fancy FE](https://source.jonsam.site/)
 - [Fancy ML](https://ml.jonsam.site/)
+
+## TODO
+
+- 🐞 进入 slides 需要强制刷新，vue-router 无法 bypass。
 
 ## 许可证
 

@@ -1,5 +1,7 @@
 import LastReadingPopup from "./components/LastReadingPopup.vue";
 
+const ignoreRoutes = ["slides"];
+
 export default ({
 	Vue, // VuePress 正在使用的 Vue 构造函数
 	options, // 附加到根实例的一些选项
@@ -8,6 +10,7 @@ export default ({
 	isServer, // 当前应用配置是处于 服务端渲染 或 客户端
 }) => {
 	// window.Vue = vue // 使页面中可以使用Vue构造函数 （使页面中的vue demo生效）
+	const { options: routerOptions } = router;
 
 	// 判断是否绑定时间是否绑定成功
 	let isMounted = false;

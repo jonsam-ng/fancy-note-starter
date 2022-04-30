@@ -22,7 +22,7 @@ export default [
 		items: [
 			{ text: "关于", link: "/about/" },
 			// generate by slidev
-			{ text: "幻灯片", link: `/slides/` },
+			{ text: "幻灯片", link: `/slides/#/1` },
 		],
 	},
 	{ text: "博客", link: "https://www.jonsam.site" },
