@@ -16,6 +16,10 @@ cd my-note
 degit jonsam-ng/fancy-note-starter
 ```
 
+## 特性
+
+- 支持 slidev 幻灯片
+
 ## 快速上手
 
 1. 安装依赖并启动项目
@@ -44,7 +48,7 @@ yarn dev
 
 9. 等待 github actions 完成后，在 `Setting` → `Pages` -> `Source` 中将分支改为 `gh-pages`。如果没有此分支，请检查上一步 git action 是否完成或者是否报错。
 
-10. [可选]如果需要自定义域名，修改 `docs/.vuepress/config/site.config.ts` 中设置 `useCustomDomainName` 为 true，在 `Setting` → `Pages` -> `Custom domain` 修改为自已的自定义域名，前提是您已经在域名解析服务商那里将域名解析到 `{{github_name}}.github.io`（配置 NS 记录）。建议勾选 `Enforce HTTPS`。
+10. [可选]如果需要自定义域名，修改 `docs/.vuepress/config/site.config.ts` 中设置 `useCustomDomainName` 为 true，在 `Setting` → `Pages` -> `Custom domain` 修改为自已的自定义域名，前提是您已经在域名解析服务商那里将域名解析到 `{{github_name}}.github.io`（配置 NS 记录）。建议勾选 `Enforce HTTPS`。修改 `package.json` 中 buildSli 的 base 参数。
 
 11. [可选]在 `scripts/baiduPush.sh` 配置百度推送。在 `package.json` 修改 scripts 里 `baiduPush` 脚本中域名为您的域名。
 

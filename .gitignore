@@ -18,3 +18,5 @@ urls.txt
 .DS_Store
 
 .history
+
+docs/.vuepress/public/slides
