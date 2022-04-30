@@ -47,7 +47,7 @@ log(chalk.yellow("copy slides to docs dist"));
 
 const slidesDir = resolve("../slides/dist");
 
-const docsDir = resolve("../docs/.vuepress/public");
+const docsDir = resolve("../docs/.vuepress/dist");
 
 const dest = path.join(docsDir, "slides");
 
