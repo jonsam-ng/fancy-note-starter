@@ -21,14 +21,17 @@ degit jonsam-ng/fancy-note-starter
 ## 特性
 
 - 支持 slidev 幻灯片，链接 `/slides`。
+- 支持数学公式。
+- 支持 PDF。
 
 ## 快速上手
 
 1. 安装依赖并启动项目
 
 ```bash
-yarn
-yarn dev
+npm i -g pnpm
+pnpm i
+pnpm dev
 ```
 
 2. 修改 `docs/.vuepress/config/site.config.ts` 文件中站点配置。
@@ -66,6 +69,7 @@ yarn dev
 
 - vdoing 主题配置：[主题配置 | vuepress-theme-vdoing](https://doc.xugaoyi.com/pages/a20ce8/)
 - vuepress 配置：[配置 | VuePress](https://v1.vuepress.vuejs.org/zh/config/)
+- slidev 配置：[Slidev](https://cn.sli.dev/guide/why.html)
 
 ## Vscode 使用
 
@@ -91,6 +95,7 @@ yarn dev
 ## TODO
 
 - 🐞 进入 slides 需要强制刷新，vue-router 无法 bypass。
+- 支持 PWA。
 
 ## 许可证
 
