@@ -22,7 +22,8 @@ degit jonsam-ng/fancy-note-starter
 
 - 支持 slidev 幻灯片，链接 `/slides`。
 - 支持数学公式。
-- 支持 PDF。
+- 支持 PDF，`<Pdf src="" />`。
+- 支持视频播放，`<Video src="" />`
 
 ## 快速上手
 

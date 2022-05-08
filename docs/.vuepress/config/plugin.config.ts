@@ -1,6 +1,7 @@
 import { UserPlugins } from "vuepress/config";
 import baiduCode from "./baiduCode"; // 百度统计hm码
 import dayjs from "dayjs";
+import { siteLicense, siteAuthor, siteHost } from "./site.config";
 
 /*****************************************************************************************
  *                                 配置插件
@@ -102,6 +103,43 @@ export default <UserPlugins>[
     },
   ],
   ["@renovamen/vuepress-plugin-katex", { strict: false }],
+  // see https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html#install
+  [
+    "@vuepress/pwa",
+    {
+      serviceWorker: true,
+      updatePopup: true,
+    },
+  ],
+  // see https://github.com/GitHub-Xzhi/vuepress-plugin-add-copyright
+  [
+    "@xzhi/add-copyright",
+    {
+      authorName: siteAuthor.name,
+      minLength: 100,
+      noCopy: true,
+    },
+  ],
+  // see https://github.com/ekoeryanto/vuepress-plugin-sitemap
+  [
+    "sitemap",
+    {
+      hostname: siteHost,
+    },
+  ],
+  // see https://github.com/lorisleiva/vuepress-plugin-seo
+  ["seo", {}],
+  // see https://github.com/tolking/vuepress-plugin-img-lazy
+  "img-lazy",
+  [
+    "qrcode",
+    {
+      labelText: {
+        "/": "QRCode",
+      },
+      size: "small",
+    },
+  ],
   {
     name: "custom-plugins",
     globalUIComponents: ["LastReadingPopup", "GlobalTip", "BlockToggle"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
