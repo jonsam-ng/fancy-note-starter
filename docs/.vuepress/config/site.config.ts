@@ -38,7 +38,7 @@ export const siteBlogger = {
 
 export const siteFooter = {
   createYear: 2022,
-  copyrightInfo: `${siteName} | Made by <a href=${personalLink} target="_blank">${siteAuthor.name}</a> by ❤`,
+  copyrightInfo: `${siteName} | Template by <a href="https://jonsam-ng.github.io/fancy-note-starter/">Fancy Note Starter</a> | Made by <a href=${personalLink} target="_blank">${siteAuthor.name}</a> with ❤`,
 };
 
 export const siteBase = useCustomDomainName ? "" : `/${siteRepo}/`;
