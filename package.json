@@ -5,7 +5,7 @@
     "dev": "vuepress dev docs",
     "build": "yarn buildSli && vuepress build docs",
     "deploy": "bash scripts/deploy.sh",
-    "editFm": "node utils/editFrontmatter.js",
+    "editFm": "node utils/editFormatter.js",
     "baiduPush": "node utils/baiduPush.js https://www.jonsam.site && bash scripts/baiduPush.sh",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
     "buildSli": "cd slides && yarn install && npx slidev build --base fancy-note-starter/slides",

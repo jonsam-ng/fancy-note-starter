@@ -1,0 +1,75 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add global vuepress
+
+PATH: 
+  /Users/jonsam/Library/pnpm:/Users/jonsam/GolangProjects/bin:/usr/local/go/bin:/usr/local/bin:/opt/anaconda3/bin:/Users/jonsam/.oh-my-zsh/custom/plugins/switch:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/jonsam/GolangProjects/bin:/opt/anaconda3/bin:/Users/jonsam/.oh-my-zsh/custom/plugins/switch:/opt/local/bin:/opt/local/sbin:/Users/jonsam/.cargo/bin:~/.cargo/bin:~/.cargo/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: aborted
+      at connResetException (node:internal/errors:691:14)
+      at Socket.socketCloseListener (node:_http_client:407:19)
+      at Socket.emit (node:events:402:35)
+      at TCP.<anonymous> (node:net:687:12)
+
+npm manifest: 
+  {
+    "name": "fancy-note-starter",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "vuepress dev docs",
+      "build": "yarn buildSli && vuepress build docs",
+      "deploy": "bash scripts/deploy.sh",
+      "editFm": "node utils/editFormatter.js",
+      "baiduPush": "node utils/baiduPush.js https://www.jonsam.site && bash scripts/baiduPush.sh",
+      "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
+      "buildSli": "cd slides && yarn install && npx slidev build --base fancy-note-starter/slides",
+      "devSli": "cd slides && npx slidev --open",
+      "exportSli": "cd slides && yarn add playwright-chromium -D && npx slidev export"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "@renovamen/vuepress-plugin-katex": "^0.2.0",
+      "@vuepress/plugin-pwa": "^1.9.7",
+      "@xzhi/vuepress-plugin-add-copyright": "^1.0.2",
+      "chalk": "4.1.2",
+      "dayjs": "^1.11.1",
+      "gray-matter": "^4.0.3",
+      "inquirer": "^7.3.3",
+      "json2yaml": "^1.1.0",
+      "vuepress": "1.9.7",
+      "vuepress-plugin-baidu-autopush": "^1.0.1",
+      "vuepress-plugin-baidu-tongji": "^1.0.1",
+      "vuepress-plugin-comment": "^0.7.3",
+      "vuepress-plugin-copyright": "^1.0.2",
+      "vuepress-plugin-demo-block": "^0.7.2",
+      "vuepress-plugin-fulltext-search": "^2.2.1",
+      "vuepress-plugin-img-lazy": "^1.0.4",
+      "vuepress-plugin-seo": "^0.2.0",
+      "vuepress-plugin-sitemap": "^2.3.1",
+      "vuepress-plugin-thirdparty-search": "^1.0.2",
+      "vuepress-plugin-zooming": "^1.1.8",
+      "vuepress-theme-vdoing": "^1.11.2",
+      "yamljs": "^0.3.0"
+    },
+    "dependencies": {
+      "qrcode.vue": "^1.7.0",
+      "vue-core-video-player": "^0.2.0",
+      "vue-pdf-embed": "^1.1.1",
+      "vuepress-plugin-smplayer": "1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,4 +1,4 @@
-import QrCode from "../../components/QrCode.vue";
+import QrCode from "../components/QrCode.vue";
 import Vue from "vue";
 
 // 判断是否绑定时间是否绑定成功
