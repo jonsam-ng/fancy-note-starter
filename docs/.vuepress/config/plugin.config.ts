@@ -2,6 +2,7 @@ import { UserPlugins } from "vuepress/config";
 import baiduCode from "./baiduCode"; // 百度统计hm码
 import dayjs from "dayjs";
 import { siteLicense, siteAuthor, siteHost } from "./site.config";
+import type { SmPlayerPluginOption } from "vuepress-plugin-smplayer/types";
 
 /*****************************************************************************************
  *                                 配置插件
@@ -131,6 +132,11 @@ export default <UserPlugins>[
   ["seo", {}],
   // see https://github.com/tolking/vuepress-plugin-img-lazy
   "img-lazy",
+  [
+    "smplayer",
+    // see https://www.u2sb.com/pages/963900/#%E9%85%8D%E7%BD%AE
+    {} as SmPlayerPluginOption,
+  ],
   {
     name: "custom-plugins",
     globalUIComponents: ["LastReadingPopup", "GlobalTip", "BlockToggle"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles

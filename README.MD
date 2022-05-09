@@ -23,12 +23,13 @@ degit jonsam-ng/fancy-note-starter
 - 支持 slidev 幻灯片，链接 `/slides`。
 - 支持数学公式。
 - 支持 PDF，`<Pdf src="" />`。
-- 支持视频播放，`<Video src="" />`。
+- 支持视频播放，`<VideoPlayer src="" />`。
 - 支持 PWA。
 - 支持复制版权声明。
 - 优化 SEO，支持 sitemap 生成。
 - 支持移动端扫码查看。
 - 自动备份仓库到gitee。配置 `.github/workflows/gitee-repos-mirror.yml` 文件。
+- 支持播放媒体标签，如哔哩哔哩。
 
 ## 快速上手
 
