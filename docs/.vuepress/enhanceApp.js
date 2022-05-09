@@ -1,6 +1,7 @@
 import LastReadingPopup from "./components/LastReadingPopup.vue";
 import QrCodeMixin from "./plugins/qrcode";
 import LastReadingMixin from "./plugins/lastReading";
+import VueCoreVideoPlayer from "vue-core-video-player";
 
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
@@ -15,4 +16,7 @@ export default ({
   Vue.component(LastReadingPopup.name, LastReadingPopup);
   Vue.mixin(LastReadingMixin);
   Vue.mixin(QrCodeMixin);
+  Vue.use(VueCoreVideoPlayer, {
+    lang: "zh-CN",
+  });
 };
