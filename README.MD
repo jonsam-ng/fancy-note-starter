@@ -28,6 +28,7 @@ degit jonsam-ng/fancy-note-starter
 - 支持复制版权声明。
 - 优化 SEO，支持 sitemap 生成。
 - 支持移动端扫码查看。
+- 自动备份仓库到gitee。配置 `.github/workflows/gitee-repos-mirror.yml` 文件。
 
 ## 快速上手
 
