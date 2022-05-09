@@ -1,5 +1,5 @@
 <template>
-  <div class="qrcodeBtn" @mousedown.stop="showQrCode">
+  <div class="qrcodeBtn" @mousedown.stop="showQrCode" title="手机查看">
     <svg
       t="1652063987836"
       viewBox="0 0 1024 1024"

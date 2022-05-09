@@ -24,6 +24,7 @@ labels: bug
 <!--![](xxx.jpg)-->
 
 ## 依赖版本
+
 - node.js: <!--v1x.x.x-->
 - @vuepress: <!--v1.x.x-->
 - vuepress-theme-vdoing: <!--v1.x.x-->
