@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "yarn buildSli && vuepress build docs",
+    "build": "pnpm buildSli && vuepress build docs",
     "deploy": "bash scripts/deploy.sh",
     "editFm": "node utils/editFormatter.js",
     "baiduPush": "node utils/baiduPush.js https://www.jonsam.site && bash scripts/baiduPush.sh",
-    "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
-    "buildSli": "cd slides && yarn install && npx slidev build --base fancy-note-starter/slides",
+    "updateTheme": "pnpm remove vuepress-theme-vdoing && rm -rf node_modules && pnpm && pnpm add vuepress-theme-vdoing -D",
+    "buildSli": "cd slides && pnpm install && npx slidev build --base fancy-note-starter/slides",
     "devSli": "cd slides && npx slidev --open",
-    "exportSli": "cd slides && yarn add playwright-chromium -D && npx slidev export"
+    "exportSli": "cd slides && pnpm add playwright-chromium -D && npx slidev export"
   },
   "license": "MIT",
   "devDependencies": {
