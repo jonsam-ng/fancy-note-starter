@@ -104,6 +104,10 @@ pnpm dev
 - 🐞 进入 slides 需要强制刷新，vue-router 无法 bypass。
 - 支持 PWA。
 
+## 模板
+
+本仓库使用模板[jonsam-ng/fancy-note-starter](https://github.com/jonsam-ng/fancy-note-starter)驱动。
+
 ## 许可证
 
 [MIT](./LICENSE)
