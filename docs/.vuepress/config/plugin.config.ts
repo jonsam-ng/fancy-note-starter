@@ -10,6 +10,7 @@ import type { SmPlayerPluginOption } from "vuepress-plugin-smplayer/types";
 
 export default <UserPlugins>[
   "vuepress-plugin-baidu-autopush", // 百度自动推送
+  "vuepress-plugin-reading-time",
   [
     "vuepress-plugin-baidu-tongji", // 百度统计
     { hm: baiduCode },

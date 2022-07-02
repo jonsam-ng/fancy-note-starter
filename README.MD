@@ -1,6 +1,7 @@
 <p align="center"><a href="https://jonsam-ng.github.io/fancy-note-starter/" target="_blank" rel="noopener noreferrer"><img width="180" src="/docs/.vuepress/public/img/logo.png" alt="logo"></a></p>
 
 <h2 align="center">Fancy Note Starter</h2>
+<h6 align="center">快速建立笔记静态站点的模板</h6>
 
 ## 介绍
 
@@ -106,7 +107,7 @@ pnpm dev
 
 ## 模板
 
-本仓库使用模板[jonsam-ng/fancy-note-starter](https://github.com/jonsam-ng/fancy-note-starter)驱动。
+本仓库由模板[jonsam-ng/fancy-note-starter](https://github.com/jonsam-ng/fancy-note-starter)驱动。
 
 ## 许可证
 

@@ -94,4 +94,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 			process: true,
 		},
 	},
+  pwa: {
+    workboxOptions: {
+      skipWaiting: true,
+    },
+  },
 });
