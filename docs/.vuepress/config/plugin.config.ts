@@ -138,6 +138,7 @@ export default <UserPlugins>[
     // see https://www.u2sb.com/pages/963900/#%E9%85%8D%E7%BD%AE
     {} as SmPlayerPluginOption,
   ],
+  "reading-progress",
   {
     name: "custom-plugins",
     globalUIComponents: ["LastReadingPopup", "GlobalTip", "BlockToggle"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
