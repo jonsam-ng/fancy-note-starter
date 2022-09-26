@@ -100,11 +100,6 @@ pnpm dev
 - [Fancy FE](https://source.jonsam.site/)
 - [Fancy ML](https://ml.jonsam.site/)
 
-## TODO
-
-- 🐞 进入 slides 需要强制刷新，vue-router 无法 bypass。
-- 支持 PWA。
-
 ## 模板
 
 本仓库由模板[jonsam-ng/fancy-note-starter](https://github.com/jonsam-ng/fancy-note-starter)驱动。
